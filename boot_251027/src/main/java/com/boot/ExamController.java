@@ -11,7 +11,11 @@ public class ExamController {
 	@RequestMapping("/")
 	public String home() {
 		
+<<<<<<< HEAD
 		log.info("hello boot 111 222 333 444 666 777");
+=======
+		log.info("hello boot 111 222 333 444 666");
+>>>>>>> branch 'main' of https://github.com/ehdehf/boot_251027.git
 		
 		return "hello";
 	}
